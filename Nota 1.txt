@@ -1,0 +1,24 @@
+1) Setup - ¿Qué incluye?
+
+Basico:
+- Esquema de carga manual diaria/semanal/etc de un archivo plano tipo .CSV a un repositorio en GCP
+- Visualización del tablero con los KPI's definidos para un esquema básico.
+
+Avanzado:
+- Idema anterior más el conector a los datos (previa evaluación de factibilidad), lo que permite automatizar la carga manual. 
+
+a) Arquitectura
+- Basico: GCP
+- Avanzado: GCP + Desarrollo custom
+
+b) Normalización de bdd - buscamos vacíos, errores, etc., etc., etc.
+c) PAP (Puesta A Punto) y Configuraciones -accesos, roles, etc., etc.-)
+d) pruebas - cruzamos y validamos indicadores con el cliente
+e) Kick-OFF - visualización estándar de la información
+incluso, se me ocurre que le podemos mostrar los campos que necesitamos que son comunes en la mayoría de los distris, ver DIVITO GOLOSINAS,,, no se me ocurre que haya muuuucho mas....
+
+2) Servicios - ¿cuáles?
+a) V.1. - Solo visualización de información, comparativas con períodos, etc., etc. - establecer bien que si, que no, incluso cantidad de SLIDES
+b) V.2. - BP (Business Plan), integrá el BP y realizá un seguimiento de objetivos
+c) V.3. - OPORTUNIDADES - mirá donde están las oportunidades, que compran, que no, características por canal, zona geográfica, fabricamte, etc.
+d) V.4. - OFERTA CUSTOM - ahi si entra la parte de oferta custom, pricing, rentabilidad, etc., etc., la mas complicada que incluye ML
