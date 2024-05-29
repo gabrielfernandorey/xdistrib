@@ -1,0 +1,16 @@
+{
+  "configurations": [
+    {
+      "name": "Deploy Cloud Function",
+      "type": "cloudcode.cloudfunctions",
+      "request": "launch",
+      "functionName": "cf-gui",
+      "region": "us-central1",
+      "gen": "GEN_1",
+      "revision": "2",
+      "entryPoint": "hello_pubsub",
+      "runtime": "python311",
+      "testInput": ""
+    }
+  ]
+}

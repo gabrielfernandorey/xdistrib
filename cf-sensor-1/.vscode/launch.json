@@ -1,0 +1,16 @@
+{
+  "configurations": [
+    {
+      "name": "Deploy Cloud Function",
+      "type": "cloudcode.cloudfunctions",
+      "request": "launch",
+      "functionName": "cf-sensor",
+      "region": "us-central1",
+      "gen": "GEN_1",
+      "revision": "2",
+      "entryPoint": "evento_gcs",
+      "runtime": "python311",
+      "testInput": ""
+    }
+  ]
+}
